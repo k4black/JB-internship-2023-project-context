@@ -127,5 +127,5 @@ Experimenting with batch size we found increasing batch size to be more stable i
 | 96         | 0.3308      | 0.5296 |
 
 
-The final model was trained with `batch_size=96` and `lr=1e-4` for 10 epochs available as [k4black/Salesforce-codet5-small-java-small-selected-wo-tokens](https://huggingface.co/k4black/Salesforce-codet5-small-java-small-selected-wo-tokens) Huggingface Hub.
+The final model was trained with `batch_size=96` and `lr=1e-4` for 5 epochs available as [k4black/Salesforce-codet5-small-java-small-selected-wo-tokens](https://huggingface.co/k4black/Salesforce-codet5-small-java-small-selected-wo-tokens) Huggingface Hub.
 the model achieved the following metrics: `exact_match=0.3302, rouge1=0.5329, rouge2=0.2582, rougeL=0.5323`
