@@ -1,0 +1,45 @@
+{
+    "default": {
+        "optim": "adamw_torch",
+        "add_special_tokens": true,
+        "learning_rate": 1e-4,
+        "batch_size": 64,
+        "max_epochs": 2,
+        "eval_steps": 1000
+    },
+
+    "default-b32": {
+        "batch_size": 32
+    },
+
+    "default-b96": {
+        "batch_size": 96
+    },
+
+    "default-lr5e-5": {
+        "learning_rate": 5e-5
+    },
+
+    "default-lr1e-5": {
+        "learning_rate": 1e-5
+    },
+
+    "default-lr3e-4": {
+        "learning_rate": 3e-4
+    },
+
+    "selected": {
+        "optim": "adamw_torch",
+        "add_special_tokens": true,
+        "learning_rate": 1e-4,
+        "batch_size": 96,
+        "max_epochs": 10,
+        "eval_steps": 2000,
+        "early_stopping_patience": 10
+    },
+
+    "selected-wo-tokens": {
+        "add_special_tokens": false,
+        "max_epochs": 5
+    }
+}
